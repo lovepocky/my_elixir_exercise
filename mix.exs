@@ -23,11 +23,12 @@ defmodule MyElixirExercises.MixProject do
     [
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"},
-      
+
       {:poison, "~> 3.1"},
       {:earmark, "~> 0.1", only: :dev},
       {:ex_doc, "~> 0.11", only: :dev},
-      {:httpoison, "~> 1.0"}
+      {:httpoison, "~> 1.0"},
+      {:scribe, "~> 0.8"}
     ]
   end
 end
